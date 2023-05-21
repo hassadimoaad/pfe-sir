@@ -16,7 +16,7 @@ export class CreatEmplyerComponent {
 
   public save(){
    
-    this._employes.push();
+    this._employes.push(this.employer);
     
     console.log(this.employer);
     //this.employerService.save(this.employer).subscribe(data=>console.log(data));
