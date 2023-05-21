@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class Employer {}","map":{"version":3,"names":["Employer"],"sources":["/home/moaad/pfeSir/pfe-sir/my-app/src/app/controller/model/employer.ts"],"sourcesContent":["export class Employer {\n cnss !:string;\n nom !:string;\n prenom !:string;\n}\n"],"mappings":"AAAA,OAAM,MAAOA,QAAQ"},"metadata":{},"sourceType":"module","externalDependencies":[]}

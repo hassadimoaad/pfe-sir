@@ -1,0 +1,43 @@
+<p>creat-emplyer works!</p>
+<div class="card">
+    <div class="card-header">Ajout Employer</div>
+  
+    <div class="card-body">
+  
+      <div class="form-group">
+        <label>Cnss</label>
+        <input type="text" class="form-control" [(ngModel)]="employer.cnss">
+      </div>
+  
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" class="form-control" [(ngModel)]="employer.nom">
+      </div>
+  
+      <div class="form-group">
+        <label>Prenom</label>
+        <input type="text" class="form-control" [(ngModel)]="employer.prenom">
+      </div>
+  
+  
+    </div>
+    <div class="card-footer">
+      <button class="btn btn-success btn-group-lg" (click)="save()">Save</button>
+    </div>
+  </div>
+  <div>
+    <table border>
+        <tr>
+          <th>Cnss</th>
+          <th>Nom</th>
+          <th>Penom</th>
+        </tr>
+        <tr *ngFor="let employer of _employes ">
+          <td>{{employer.cnss}}</td>
+          <td>{{employer.nom}}</td>
+          <td>{{employer.prenom}}</td>
+        </tr>
+      
+      </table> 
+  </div>
+  
